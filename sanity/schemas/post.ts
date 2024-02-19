@@ -53,7 +53,7 @@ export default defineType({
     defineField({
       name: 'tags',
       title: 'Tags',
-      type: 'string'
+      type: 'string',
     }),
     defineField({
       name: 'publishedAt',

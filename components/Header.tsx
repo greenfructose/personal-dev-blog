@@ -29,10 +29,10 @@ const Header = () => {
         <Link href="/">
           <div className="flex items-center w-full">
             <Image
-              src={"/manoj.svg"}
+              src={"/shield-50.png"}
               width={50}
               height={50}
-              alt="Manoj Logo"
+              alt="Empires and Embers Logo"
               className="rounded-full object-cover w-12 h-12"
             />
           </div>
@@ -53,12 +53,12 @@ const Header = () => {
           />
         </form>
         <ul className="items-center gap-2 rounded-full text-zinc-800 dark:text-zinc-200 bg-white/90 dark:bg-dark ring-1 ring-zinc-900/5 dark:ring-white/10 shadow-lg shadow-zinc-800/5 px-6 py-3 hidden sm:flex">
-          <Link href="https://github.com/iamsidar07" target="_blank">
+          <Link href="https://github.com/greenfructose" target="_blank">
             <li className=" text-zinc-900 dark:text-zinc-200 hover:text-teal-600 dark:hover:text-teal-400 duration-200 cursor-pointer">
               Github
             </li>
           </Link>
-          <Link href="https://www.linkedin.com/in/iamsidar/" target="_blank">
+          <Link href="https://www.linkedin.com/in/uberleettechnologies/" target="_blank">
             <li className=" text-zinc-900 dark:text-zinc-200 hover:text-teal-600 dark:hover:text-teal-400 duration-200 cursor-pointer">
               LinkedIn
             </li>
@@ -70,12 +70,12 @@ const Header = () => {
 
         {isShown && (
           <ul className="flex flex-col absolute top-14 right-4 min-w-[50%] min-h-[150px] h-fit p-4 rounded-2xl items-center gap-2  text-zinc-800 dark:text-zinc-200 bg-white/90 dark:bg-dark ring-1 ring-zinc-900/5 dark:ring-white/10 shadow-lg shadow-zinc-800/5 px-3">
-            <Link href="https://github.com/iamsidar07" target="_blank">
+            <Link href="https://github.com/greenfructose" target="_blank">
               <li className="px-3 py-1 text-zinc-900 dark:text-zinc-200 hover:text-teal-600 dark:hover:text-teal-400 duration-200 cursor-pointer">
                 Github
               </li>
             </Link>
-            <Link href="https://www.linkedin.com/in/iamsidar/" target="_blank">
+            <Link href="https://www.linkedin.com/in/uberleettechnologies/" target="_blank">
               <li className="px-3 py-1 text-zinc-900 dark:text-zinc-200 hover:text-teal-600 dark:hover:text-teal-400 duration-200 cursor-pointer">
                 LinkedIn
               </li>
