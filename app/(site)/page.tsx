@@ -60,7 +60,7 @@ export default async function Home({ searchParams }: HomeProps) {
                         </Link>
                       </div>
                       <h3 className="text-xl font-bold hover:text-blue-700 hover:underline hover:underline-offset-1 mb-3">
-                        <Link href={`/posts/${post.slug}`}>{post.title}</Link>
+                        <Link href={`/post/${post.slug}`}>{post.title}</Link>
                       </h3>
                       <p className="text-sm text-gray-600 dark:text-zinc-400">
                         {post.description}
