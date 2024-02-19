@@ -28,7 +28,7 @@ const PostCard = ({ post }: PostCardProps) => {
           </Link>
         </div>
         <h3 className="text-4xl font-bold hover:text-blue-700 hover:underline hover:underline-offset-1 mb-3">
-          <Link href={`/posts/${post.slug}`}>
+          <Link href={`/post/${post.slug}`}>
             {post.title}
           </Link>
         </h3>
