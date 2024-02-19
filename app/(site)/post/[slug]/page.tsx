@@ -81,7 +81,7 @@ const PostPage = async ({ params }: PostPageProps) => {
           <section className="mt-24 max-w-7xl mx-auto px-5 sm:px-10">
             <div className="sm:-mx-5 mt-5 border-b border-blue-500 pb-4">
               <div className="font-monu mb-4 text-gray-600 dark:text-zinc-400">
-                Auhtor
+                Author
               </div>
               <div className="flex items-center justify-between">
                 <div className="flex items-center gap-5">
